@@ -22,6 +22,11 @@ jobs:
 
       - name: Grant rights
         run: chmod +x gradlew
+        
+      - name: Build and Test
+        run: |
+          ./gradlew clean
+          ./gradlew assembleRelease
 
       - name: Build Release AAB
         id: buildRelease
