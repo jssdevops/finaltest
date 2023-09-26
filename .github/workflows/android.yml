@@ -1,9 +1,10 @@
 name: New Final         
+name: New Final         
 
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -26,3 +27,4 @@ jobs:
       - name: Build Release AAB
         id: buildRelease
         run: ./gradlew bundleRelease
+
