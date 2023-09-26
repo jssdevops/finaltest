@@ -4,12 +4,12 @@ plugins {
 
 android {
     signingConfigs {
-        debug {
-            storeFile file('F:\\android-project\\tiffinSevaReleaseKeyStore')
-            storePassword '!TiffinSeva@Bbhkv^192020!'
-            keyPassword '!TiffinSeva@Bbhkv^192020!'
-            keyAlias 'tiffinSeva'
-        }
+        //debug {
+            //storeFile file('F:\\android-project\\tiffinSevaReleaseKeyStore')
+            //storePassword '!TiffinSeva@Bbhkv^192020!'
+            //keyPassword '!TiffinSeva@Bbhkv^192020!'
+            //keyAlias 'tiffinSeva'
+        //}
     }
     namespace 'org.android.tiffinseva'
     compileSdk 33
